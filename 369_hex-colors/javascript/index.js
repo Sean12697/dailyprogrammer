@@ -1,0 +1,1 @@
+exports.hexcolor = (...a) => '#' + a.map(y => { let z = Number(y).toString(16); return z.length == 1 ? '0' + z : z }).join("").toUpperCase();
